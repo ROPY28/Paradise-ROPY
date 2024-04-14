@@ -54113,26 +54113,9 @@
 	},
 /area/engine/chiefs_office)
 "cHe" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat,
-/obj/item/reagent_containers/food/snacks/meat/corgi,
-/obj/item/reagent_containers/food/snacks/meat/corgi,
-/obj/item/reagent_containers/food/snacks/meat/humanoid/human,
-/obj/item/kitchen/knife,
-/obj/effect/decal/cleanable/cobweb2,
+/obj/item/chair/wood/wings{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cHf" = (
@@ -54541,15 +54524,15 @@
 /turf/simulated/floor/plasteel,
 /area/atmos/control)
 "cHZ" = (
-/obj/machinery/kitchen_machine/grill,
-/turf/simulated/floor/plating,
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cIa" = (
-/obj/machinery/cooker/deepfryer,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/structure/loom,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cIb" = (
 /obj/structure/table,
@@ -54649,37 +54632,41 @@
 /turf/simulated/floor/plasteel,
 /area/engine/break_room)
 "cIj" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken7"
+/obj/structure/table/wood/fancy/green,
+/obj/item/reagent_containers/food/snacks/doner_vegan,
+/obj/item/reagent_containers/food/snacks/doner_cheese{
+	pixel_y = 8
 	},
+/obj/item/reagent_containers/food/snacks/doner_mushroom{
+	pixel_y = -2;
+	pixel_x = 6
+	},
+/obj/effect/decal/ants,
+/turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cIk" = (
 /obj/machinery/slot_machine,
+/obj/effect/spawner/random_spawners/cobweb_left_rare,
 /turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cIl" = (
-/obj/structure/chair/stool,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken3"
-	},
+/obj/structure/chair/sofa,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIm" = (
-/turf/simulated/floor/wood,
+/obj/item/clothing/head/festive,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIn" = (
-/obj/machinery/vending/cigarette,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/obj/effect/spawner/random_spawners/cobweb_right_frequent,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIo" = (
-/obj/structure/table/wood,
-/obj/item/storage/ashtray/bronze{
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/chair/sofa/left,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIq" = (
 /obj/structure/cable{
@@ -55194,32 +55181,30 @@
 /turf/simulated/floor/plasteel,
 /area/toxins/xenobiology)
 "cJs" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken6"
-	},
+/obj/structure/chair/wood,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cJt" = (
-/turf/simulated/floor/carpet,
+/obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/snacks/grown/pineapple,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cJu" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
-/turf/simulated/floor/carpet,
+/obj/structure/table/wood/fancy,
+/obj/item/storage/fancy/cigcase,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cJv" = (
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken"
+/obj/structure/table/wood/fancy,
+/obj/item/storage/ashtray/bronze{
+	pixel_x = -1;
+	pixel_y = 1
 	},
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cJw" = (
-/obj/structure/table,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/kitchen_machine/microwave{
-	pixel_x = -3;
-	pixel_y = 6
-	},
-/turf/simulated/floor/plating,
+/obj/item/clothing/head/lily_crown,
+/turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cJx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -55659,23 +55644,17 @@
 	},
 /area/toxins/xenobiology)
 "cKu" = (
-/obj/structure/table/wood/fancy,
-/obj/item/candle,
-/turf/simulated/floor/carpet,
+/obj/item/chair/wood/wings,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cKv" = (
-/obj/structure/chair/wood/wings{
-	dir = 4
-	},
-/turf/simulated/floor/wood,
+/obj/structure/chair/sofa/right,
+/obj/item/storage/fancy/cigarettes/cigpack_midori,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cKw" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken7"
-	},
+/obj/item/clothing/head/flower_crown,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cKx" = (
 /obj/machinery/requests_console{
@@ -55723,34 +55702,20 @@
 /turf/simulated/floor/plasteel,
 /area/atmos/control)
 "cKA" = (
-/obj/item/kitchen/utensil/fork,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cKB" = (
-/obj/structure/table,
-/obj/item/poster/random_contraband,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cKC" = (
-/obj/structure/table,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/structure/mineral_door/wood{
+	name = "Abandoned Bar"
 	},
-/obj/structure/window/reinforced,
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 2;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -2;
-	pixel_y = 4
-	},
+/obj/effect/spawner/random_spawners/oil_maybe,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cKD" = (
-/obj/structure/table,
-/obj/structure/window/reinforced,
-/obj/item/storage/fancy/candle_box/full,
+/obj/item/clothing/head/geranium_crown,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cKE" = (
@@ -55814,15 +55779,12 @@
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/aft)
 "cKM" = (
-/obj/item/kitchen/utensil/fork,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken"
-	},
+/obj/machinery/light/small,
+/obj/machinery/smartfridge/drying_rack,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cKN" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
+/obj/structure/reagent_dispensers/beerkeg,
 /turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cKO" = (
@@ -56299,16 +56261,14 @@
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cLY" = (
-/obj/item/stack/sheet/wood,
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken5"
-	},
+/obj/item/chair/wood/wings,
+/turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cLZ" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken5";
+	tag = "icon-wood-broken5"
 	},
-/turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cMa" = (
 /obj/structure/cable{
@@ -56324,27 +56284,41 @@
 /turf/simulated/floor/plasteel,
 /area/atmos/control)
 "cMb" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/turf/simulated/floor/wood{
-	icon_state = "wood-broken7"
-	},
+/obj/structure/table/wood/fancy/green,
+/obj/item/clothing/head/flower_crown,
+/turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cMc" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
+/obj/structure/table/wood/fancy/green,
+/obj/effect/spawner/lootdrop/maintenance/tripple,
 /turf/simulated/floor/wood,
 /area/maintenance/asmaint)
 "cMd" = (
-/obj/structure/chair/wood{
-	dir = 8
+/obj/structure/table/wood,
+/obj/item/storage/fancy/rollingpapers{
+	pixel_x = -6
 	},
-/turf/simulated/floor/carpet,
+/obj/item/storage/fancy/rollingpapers{
+	pixel_x = 6
+	},
+/obj/item/storage/fancy/rollingpapers,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cMe" = (
-/obj/structure/table/wood/fancy,
-/obj/item/trash/candle,
-/turf/simulated/floor/carpet,
+/obj/structure/closet/cabinet,
+/obj/item/reagent_containers/food/snacks/grown/cannabis{
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/grown/cannabis{
+	pixel_y = 1;
+	pixel_x = -7
+	},
+/obj/item/reagent_containers/food/snacks/grown/cannabis{
+	pixel_y = 1;
+	pixel_x = 6
+	},
+/obj/item/clothing/head/sunflower_crown,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMf" = (
 /obj/machinery/door/airlock/maintenance,
@@ -56769,8 +56743,10 @@
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/south)
 "cNg" = (
-/obj/structure/sign/barsign,
-/turf/simulated/wall,
+/obj/effect/decal/cleanable/cobweb2,
+/obj/structure/bookcase/random,
+/obj/item/clothing/head/lily_crown,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cNh" = (
 /obj/effect/decal/cleanable/vomit,
@@ -59936,9 +59912,8 @@
 /turf/space,
 /area/space)
 "cTQ" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plasteel,
+/turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cTR" = (
 /obj/machinery/access_button{
@@ -73017,7 +72992,7 @@
 /turf/simulated/floor/carpet/purple,
 /area/maintenance/server)
 "hBI" = (
-/obj/item/flag/med,
+/obj/item/flag/chameleon,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "hDp" = (
@@ -78553,19 +78528,11 @@
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/starboard/west)
 "nHW" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 3;
-	height = 4;
-	id = "ntstation";
-	name = "To Space Station";
-	pixel_x = 32;
-	width = 6
-	},
-/turf/space{
-	icon_state = "black"
-	},
-/area/space)
+/obj/structure/fermenting_barrel,
+/obj/effect/decal/cleanable/greenglow,
+/obj/effect/decal/cleanable/pie_smudge,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "nJp" = (
 /obj/effect/decal/warning_stripes/green,
 /obj/machinery/vending/hydroseeds,
@@ -127648,11 +127615,11 @@ cMf
 csL
 chf
 cIk
-cJs
-cKv
+cKS
+cKS
 cKN
 cLY
-chf
+cDm
 daA
 cBN
 dgT
@@ -127903,12 +127870,12 @@ cEz
 csL
 chf
 cyJ
-cyP
-cIj
+chf
+cKA
 cIm
 cKu
-cKM
-csL
+cKA
+cJw
 cNd
 daA
 cTB
@@ -128160,13 +128127,13 @@ cyJ
 cFq
 chf
 csL
-cyP
-cIm
+chf
+cKv
 cJu
 cKw
-cJt
+cHe
 cLZ
-cBQ
+chf
 dbE
 cyJ
 chf
@@ -128420,10 +128387,10 @@ cMf
 chf
 cIl
 cJt
-cJt
+cKA
+cJs
 cIj
-cIj
-cBQ
+chf
 dbE
 fDl
 chf
@@ -128678,9 +128645,9 @@ chf
 cIo
 cJv
 cKA
-cJt
+csL
 cMc
-cBQ
+chf
 dbE
 cyJ
 chf
@@ -128933,11 +128900,11 @@ cyJ
 wUz
 chf
 cIn
+nHW
 csL
-cIj
-cKS
+cKA
 cMb
-cBQ
+chf
 kIe
 eMx
 dgZ
@@ -129190,11 +129157,11 @@ cyJ
 chf
 chf
 chf
-cJw
+chf
 cKC
-cJt
-cMe
-cNg
+chf
+chf
+chf
 cNq
 csL
 chf
@@ -129446,10 +129413,10 @@ csL
 csK
 chf
 cHZ
+cKD
 csL
-cYj
 cKB
-cJu
+cKB
 cMd
 chf
 cNq
@@ -129703,11 +129670,11 @@ chf
 chf
 chf
 cIa
-cAv
-cAv
-cKD
-cJt
-cJG
+cyJ
+cHe
+cKB
+csL
+cKM
 chf
 deo
 chf
@@ -129957,14 +129924,14 @@ cDo
 chf
 hBI
 qPn
+csL
 chf
-cHe
-csL
-csL
+cNg
+cKB
 cTQ
 cTQ
-csL
-cJv
+cKB
+cMe
 chf
 lHp
 chf
@@ -130218,7 +130185,7 @@ chf
 chf
 chf
 chf
-cyP
+chf
 chf
 chf
 chf
@@ -131792,12 +131759,12 @@ uTI
 uTI
 uTI
 uTI
-ylx
-ylx
-ylx
-ylx
-ylx
-ylx
+uTI
+uTI
+uTI
+uTI
+uTI
+uTI
 uTI
 uTI
 uTI
@@ -132049,12 +132016,12 @@ uTI
 uTI
 uTI
 uTI
-ylx
-ylx
-ylx
-ylx
-ylx
-ylx
+uTI
+uTI
+uTI
+uTI
+uTI
+uTI
 uTI
 uTI
 uTI
@@ -132306,12 +132273,12 @@ uTI
 uTI
 uTI
 uTI
-ylx
-ylx
-ylx
-ylx
-ylx
-ylx
+uTI
+uTI
+uTI
+uTI
+uTI
+uTI
 uTI
 uTI
 uTI
@@ -132563,12 +132530,12 @@ uTI
 uTI
 uTI
 uTI
-ylx
-ylx
-nHW
-ylx
-ylx
-ylx
+uTI
+uTI
+uTI
+uTI
+uTI
+uTI
 uTI
 uTI
 uTI
@@ -136816,7 +136783,7 @@ lTl
 lTl
 lTl
 lTl
-uTI
+lTl
 aGX
 nag
 qTN
@@ -137073,7 +137040,7 @@ uTI
 lTl
 uTI
 uTI
-uTI
+lTl
 aGX
 aGX
 aGX
@@ -137330,10 +137297,10 @@ uTI
 uTI
 uTI
 uTI
-uTI
 lTl
 lTl
-uTI
+lTl
+lTl
 aGX
 vnb
 gCN
