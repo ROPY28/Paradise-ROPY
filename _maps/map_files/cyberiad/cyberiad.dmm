@@ -54651,6 +54651,7 @@
 /area/maintenance/asmaint)
 "cIl" = (
 /obj/structure/chair/sofa,
+/obj/item/instrument/guitar,
 /turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIm" = (
@@ -70010,6 +70011,13 @@
 	icon_state = "cafeteria"
 	},
 /area/crew_quarters/kitchen)
+"esv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed,
+/obj/item/bedsheet/green,
+/obj/structure/curtain/black,
+/turf/simulated/floor/carpet/green,
+/area/maintenance/asmaint)
 "esU" = (
 /obj/effect/spawner/window/reinforced,
 /obj/structure/cable,
@@ -82880,6 +82888,12 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/sw)
+"sDC" = (
+/obj/structure/bed,
+/obj/item/bedsheet/orange,
+/obj/structure/curtain/black,
+/turf/simulated/floor/carpet/green,
+/area/maintenance/asmaint)
 "sDN" = (
 /obj/structure/morgue{
 	dir = 1
@@ -129927,9 +129941,9 @@ qPn
 csL
 chf
 cNg
-cKB
+sDC
 cTQ
-cTQ
+esv
 cKB
 cMe
 chf
