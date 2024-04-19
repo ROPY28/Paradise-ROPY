@@ -54525,7 +54525,8 @@
 /area/atmos/control)
 "cHZ" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor/carpet/green,
+/obj/effect/decal/cleanable/tomato_smudge,
+/turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cIa" = (
 /obj/machinery/light/small{
@@ -54663,6 +54664,7 @@
 	dir = 1
 	},
 /obj/effect/spawner/random_spawners/cobweb_right_frequent,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cIo" = (
@@ -55183,6 +55185,7 @@
 /area/toxins/xenobiology)
 "cJs" = (
 /obj/structure/chair/wood,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cJt" = (
@@ -55646,6 +55649,7 @@
 /area/toxins/xenobiology)
 "cKu" = (
 /obj/item/chair/wood/wings,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cKv" = (
@@ -55655,6 +55659,7 @@
 /area/maintenance/asmaint)
 "cKw" = (
 /obj/item/clothing/head/flower_crown,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
 /area/maintenance/asmaint)
 "cKx" = (
@@ -55782,6 +55787,8 @@
 "cKM" = (
 /obj/machinery/light/small,
 /obj/machinery/smartfridge/drying_rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/insectguts,
 /turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "cKN" = (
@@ -70016,6 +70023,8 @@
 /obj/structure/bed,
 /obj/item/bedsheet/green,
 /obj/structure/curtain/black,
+/obj/effect/decal/cleanable/vomit/green,
+/obj/effect/decal/cleanable/pie_smudge,
 /turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "esU" = (
@@ -70437,6 +70446,13 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/plating,
 /area/maintenance/livingcomplex)
+"eMY" = (
+/obj/item/chair/wood/wings{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "eNb" = (
 /obj/structure/computerframe,
 /turf/simulated/floor/plasteel{
@@ -75540,6 +75556,10 @@
 	icon_state = "cafeteria"
 	},
 /area/medical/research/restroom)
+"kwQ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/wall,
+/area/maintenance/asmaint)
 "kwX" = (
 /obj/machinery/atmospherics/air_sensor{
 	frequency = 1222;
@@ -79136,6 +79156,10 @@
 	icon_state = "blue"
 	},
 /area/hydroponics)
+"oBv" = (
+/obj/effect/decal/cleanable/flour,
+/turf/simulated/floor/carpet/green,
+/area/maintenance/asmaint)
 "oBP" = (
 /obj/effect/decal/warning_stripes/south,
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -83343,6 +83367,10 @@
 	icon_state = "whitepurple"
 	},
 /area/toxins/launch)
+"sYh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/carpet/red,
+/area/maintenance/asmaint)
 "sYn" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/fsmaint2)
@@ -128658,8 +128686,8 @@ csL
 chf
 cIo
 cJv
-cKA
-csL
+sYh
+cyJ
 cMc
 chf
 dbE
@@ -129170,7 +129198,7 @@ cFs
 cyJ
 chf
 chf
-chf
+kwQ
 chf
 cKC
 chf
@@ -129430,7 +129458,7 @@ cHZ
 cKD
 csL
 cKB
-cKB
+cTQ
 cMd
 chf
 cNq
@@ -129685,9 +129713,9 @@ chf
 chf
 cIa
 cyJ
-cHe
-cKB
-csL
+eMY
+cTQ
+cyJ
 cKM
 chf
 deo
@@ -129944,7 +129972,7 @@ cNg
 sDC
 cTQ
 esv
-cKB
+oBv
 cMe
 chf
 lHp
