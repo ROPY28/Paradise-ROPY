@@ -48012,6 +48012,11 @@
 	icon_state = "white"
 	},
 /area/toxins/explab)
+"csh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/window/reinforced,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "csk" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -50767,33 +50772,24 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czh" = (
-/obj/structure/chair,
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/officetoys,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czi" = (
-/obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/folder,
-/obj/effect/spawner/lootdrop/maintenance/tripple,
+/obj/structure/rack,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czj" = (
-/obj/structure/chair,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/rack,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czk" = (
-/obj/structure/closet/crate,
-/obj/item/coin/silver,
-/obj/item/grenade/chem_grenade,
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
-/obj/item/poster/random_contraband,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/structure/closet/firecloset,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czm" = (
@@ -50823,16 +50819,17 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czp" = (
-/obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/maintenance/double,
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/closet,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czq" = (
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "czr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random_spawners/blood_maybe,
+/obj/machinery/light_construct{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czt" = (
@@ -51274,7 +51271,8 @@
 	},
 /area/medical/virology/lab)
 "cAu" = (
-/obj/effect/spawner/random_spawners/grille_maybe,
+/obj/structure/rack,
+/obj/item/crowbar/red,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cAv" = (
@@ -51283,34 +51281,18 @@
 /area/maintenance/asmaint)
 "cAw" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/effect/spawner/lootdrop/maintenance/double,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cAx" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced,
-/obj/item/storage/secure/briefcase,
-/obj/item/mop,
-/obj/effect/spawner/lootdrop/maintenance/double,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/maintenance/tripple,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cAy" = (
 /obj/structure/table/reinforced,
-/obj/item/shard{
-	icon_state = "medium"
-	},
-/obj/structure/window/reinforced,
-/obj/item/poster/random_contraband,
 /obj/effect/spawner/lootdrop/maintenance/double,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cAz" = (
 /obj/effect/spawner/random_barrier/possibly_welded_airlock,
@@ -51811,19 +51793,22 @@
 /turf/simulated/floor/plasteel,
 /area/engine/controlroom)
 "cBM" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/plating,
+/obj/structure/table/reinforced,
+/obj/item/toy/foamblade,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cBN" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cBO" = (
-/obj/item/shard{
-	icon_state = "medium"
+/obj/structure/table/reinforced,
+/obj/item/storage/belt/fannypack/blue{
+	pixel_y = 5
+	},
+/obj/item/storage/belt/fannypack/orange,
+/obj/item/storage/belt/fannypack/red{
+	pixel_y = -5
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -51842,10 +51827,9 @@
 /turf/simulated/wall/r_wall,
 /area/medical/research)
 "cBT" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/clown,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cBU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -52912,18 +52896,14 @@
 /turf/simulated/floor/plasteel,
 /area/engine/equipmentstorage)
 "cEp" = (
-/obj/structure/closet,
-/obj/item/toy/russian_revolver,
-/obj/effect/spawner/lootdrop/maintenance/tripple,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/table,
+/obj/item/clipboard,
+/obj/item/folder,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cEq" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/structure/closet/cardboard,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cEs" = (
@@ -52982,26 +52962,31 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cEz" = (
-/obj/structure/table,
-/obj/item/poster/random_contraband,
-/obj/effect/spawner/lootdrop/maintenance,
-/turf/simulated/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cEA" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/item/clothing/gloves/color/black,
-/obj/effect/spawner/lootdrop/maintenance,
-/turf/simulated/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cEB" = (
-/obj/structure/table,
-/obj/item/pen/fancy,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 8;
+	icon_state = "pipe-j2"
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cEC" = (
-/obj/structure/grille,
-/obj/structure/barricade/wooden,
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cEE" = (
@@ -53274,7 +53259,7 @@
 /area/maintenance/asmaint)
 "cFq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/grille/broken,
+/obj/structure/table,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cFr" = (
@@ -56329,7 +56314,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMf" = (
-/obj/machinery/door/airlock/maintenance,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMg" = (
@@ -56343,13 +56332,13 @@
 /turf/simulated/floor/plating,
 /area/maintenance/genetics)
 "cMi" = (
-/obj/machinery/door/airlock/maintenance,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/spawner/random_barrier/possibly_welded_airlock,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMj" = (
@@ -56406,7 +56395,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cMp" = (
 /obj/structure/table,
@@ -56481,13 +56471,8 @@
 /turf/simulated/floor/plating,
 /area/assembly/assembly_line)
 "cMA" = (
-/obj/effect/spawner/random_spawners/blood_maybe,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMB" = (
@@ -70755,6 +70740,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fsmaint)
+"fcr" = (
+/obj/structure/table,
+/obj/item/stack/packageWrap,
+/obj/item/destTagger{
+	pixel_y = -4;
+	pixel_x = -5
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "fdz" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/plasteel{
@@ -72033,6 +72027,14 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/security/permabrig)
+"gyH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "gzq" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
@@ -72312,6 +72314,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/disposal)
+"gOy" = (
+/obj/structure/rack,
+/obj/item/stack/tape_roll,
+/obj/item/stack/wrapping_paper,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "gOz" = (
 /obj/structure/chair/stool{
 	dir = 1
@@ -72828,6 +72836,11 @@
 	icon_state = "dark"
 	},
 /area/hydroponics)
+"hrR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/window/reinforced,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "hrX" = (
 /obj/item/stamp/granted{
 	pixel_x = -3;
@@ -76325,6 +76338,11 @@
 	icon_state = "dark"
 	},
 /area/security/prisonershuttle)
+"lqW" = (
+/obj/structure/table,
+/obj/item/stack/tickets/five,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "lqZ" = (
 /obj/effect/decal/remains/human{
 	desc = "This guy seemed to have died in terrible way! Half his remains are dust.";
@@ -76801,6 +76819,11 @@
 	icon_state = "whiteblue"
 	},
 /area/medical/patients_rooms)
+"lNN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_construct,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "lOM" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -77839,6 +77862,16 @@
 /obj/item/stack/rods,
 /turf/space,
 /area/space)
+"mVH" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/toy/carpplushie,
+/obj/item/toy/carpplushie/nebula{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "mZf" = (
 /obj/machinery/requests_console{
 	department = "Science";
@@ -78318,6 +78351,11 @@
 	icon_state = "redcorner"
 	},
 /area/security/lobby)
+"nsF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/hand_labeler,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "ntv" = (
 /obj/structure/table,
 /obj/item/folder/white,
@@ -79860,6 +79898,12 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/security/range)
+"ppx" = (
+/obj/structure/closet,
+/obj/item/coin/plasma,
+/obj/item/toy/flash,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "pqr" = (
 /obj/machinery/atmospherics/unary/portables_connector,
 /obj/effect/decal/warning_stripes/northwest,
@@ -80020,7 +80064,9 @@
 	},
 /area/quartermaster/office)
 "pAb" = (
-/obj/effect/decal/cleanable/ash,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/spawner/random_barrier/possibly_welded_airlock,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "pAe" = (
@@ -81904,6 +81950,18 @@
 	icon_state = "darkblue"
 	},
 /area/security/detectives_office)
+"rsq" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/figure/dsquad{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/toy/nuke,
+/obj/item/toy/figure/dsquad{
+	pixel_x = -8
+	},
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "rsV" = (
 /obj/effect/turf_decal/stripes{
 	dir = 10
@@ -82124,6 +82182,10 @@
 	},
 /turf/simulated/floor/engine,
 /area/toxins/mixing)
+"rFU" = (
+/obj/structure/closet/crate,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "rGg" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -82916,6 +82978,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/orange,
 /obj/structure/curtain/black,
+/obj/effect/landmark/ninja_teleport,
 /turf/simulated/floor/carpet/green,
 /area/maintenance/asmaint)
 "sDN" = (
@@ -83122,6 +83185,12 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/maintenance/xenozoo)
+"sMF" = (
+/obj/machinery/light_construct{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "sMY" = (
 /obj/structure/chair{
 	dir = 4
@@ -84348,6 +84417,17 @@
 	icon_state = "darkgrey"
 	},
 /area/toxins/mixing)
+"ucO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "uew" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -84842,6 +84922,13 @@
 	icon_state = "bar"
 	},
 /area/security/permabrig)
+"uRK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "uRL" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plasteel,
@@ -85314,6 +85401,13 @@
 	icon_state = "brown"
 	},
 /area/quartermaster/miningdock)
+"vos" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/westleft,
+/obj/machinery/door/window/brigdoor/eastleft,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "vot" = (
 /obj/structure/table,
 /obj/item/storage/box/gloves{
@@ -86461,6 +86555,12 @@
 	icon_state = "freezerfloor"
 	},
 /area/crew_quarters/locker/locker_toilet)
+"wpS" = (
+/obj/machinery/light_construct{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/asmaint)
 "wpV" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -86647,7 +86747,8 @@
 /area/maintenance/engineering)
 "wDs" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/ninja_teleport,
+/obj/structure/table/reinforced,
+/obj/effect/spawner/lootdrop/maintenance/double,
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "wDz" = (
@@ -86936,8 +87037,10 @@
 	},
 /area/maintenance/fsmaint2)
 "wUz" = (
-/obj/structure/closet,
-/obj/effect/spawner/lootdrop/maintenance,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "wUR" = (
@@ -87589,6 +87692,11 @@
 	icon_state = "neutral"
 	},
 /area/security/customs)
+"xBy" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/eight_ball,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "xCg" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -24;
@@ -87949,6 +88057,13 @@
 	icon_state = "white"
 	},
 /area/toxins/xenobiology)
+"yba" = (
+/obj/machinery/door/airlock/public,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "ybg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/closet/crate/can,
@@ -88064,6 +88179,13 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
 /area/security/permabrig)
+"yhT" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/wallet/random,
+/turf/simulated/floor/plasteel,
+/area/maintenance/asmaint)
 "yig" = (
 /obj/structure/sink{
 	dir = 4;
@@ -126360,14 +126482,14 @@ cIz
 cmJ
 abT
 cyJ
-cnV
+csL
 csL
 cFp
 csL
 csL
 csL
 ctZ
-csL
+cAz
 lkQ
 cEx
 dae
@@ -126620,9 +126742,9 @@ chf
 cBQ
 cBQ
 cMi
+chf
 cBQ
-cDm
-cMf
+cBQ
 chf
 csL
 cUA
@@ -126873,17 +126995,17 @@ mkL
 eKG
 azj
 mkL
-czh
+dgm
 csL
 cAv
 cLX
+wpS
 csL
-chf
 csL
-cEx
-csL
-cUG
-cWq
+wpS
+czq
+cEB
+pAb
 iow
 hEA
 daX
@@ -127133,14 +127255,14 @@ mkL
 czj
 czq
 wDs
-cMo
+ucO
 cBO
+cAv
+mVH
+cEA
+cEA
+dfM
 chf
-cyJ
-chf
-chf
-chf
-cKO
 chf
 cUG
 cWq
@@ -127388,15 +127510,15 @@ gFN
 qfh
 mkL
 czi
-czp
+czq
 cAw
 cMo
 cBM
-cBQ
-cyJ
-cEy
-csL
-chf
+cAv
+xBy
+czq
+czq
+cEz
 cAu
 chf
 chf
@@ -127645,16 +127767,16 @@ kBK
 aRV
 mkL
 czk
-czr
+cAv
 cAy
-cMA
+cFp
 cBT
-cBQ
-csL
+cAv
+yhT
 cEA
-csL
+cEA
 cMf
-csL
+gOy
 chf
 cIk
 cKS
@@ -127904,14 +128026,14 @@ mkL
 mkL
 cyJ
 cAx
-cFp
+cLX
+rsq
 csL
-chf
-csL
-cEz
-csL
-chf
+cMA
+cAv
 cyJ
+uRK
+lNN
 chf
 cKA
 cIm
@@ -128159,16 +128281,16 @@ iCZ
 sJW
 lsJ
 mkL
-pAb
-cAz
+csL
+csL
 cFp
-csL
-csL
-csL
-cyJ
+cAv
+czr
+cAv
+cAv
 cFq
-chf
-csL
+uRK
+lqW
 chf
 cKv
 cJu
@@ -128421,11 +128543,11 @@ chf
 cMF
 chf
 chf
-chf
-chf
-cMf
-chf
-cMf
+csh
+vos
+hrR
+yba
+cBQ
 chf
 cIl
 cJt
@@ -128680,9 +128802,9 @@ cBW
 chf
 cEp
 cEC
-cFs
-cyJ
-csL
+cAv
+cEz
+fcr
 chf
 cIo
 cJv
@@ -128935,10 +129057,10 @@ cAv
 cMH
 cBV
 chf
-chf
-cEB
-cyJ
-cyJ
+czh
+csL
+cAv
+gyH
 wUz
 chf
 cIn
@@ -129192,10 +129314,10 @@ cAC
 cLX
 cBX
 chf
-csK
-csL
+sMF
+czq
 cFs
-cyJ
+nsF
 chf
 chf
 kwQ
@@ -129450,9 +129572,9 @@ cMF
 chf
 chf
 cEq
-csL
-csL
-csK
+rFU
+ppx
+czp
 chf
 cHZ
 cKD
