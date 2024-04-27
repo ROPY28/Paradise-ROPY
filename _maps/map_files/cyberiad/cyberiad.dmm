@@ -50774,10 +50774,14 @@
 "czh" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/officetoys,
+/obj/structure/noticeboard{
+	pixel_y = 27
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czi" = (
 /obj/structure/rack,
+/obj/random/toolbox,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czj" = (
@@ -50785,6 +50789,7 @@
 	dir = 1
 	},
 /obj/structure/rack,
+/obj/random/toolbox,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "czk" = (
@@ -51272,7 +51277,17 @@
 /area/medical/virology/lab)
 "cAu" = (
 /obj/structure/rack,
-/obj/item/crowbar/red,
+/obj/random/tool{
+	pixel_x = -1
+	},
+/obj/random/tool{
+	pixel_y = -6;
+	pixel_x = -7
+	},
+/obj/random/tool{
+	pixel_y = 6;
+	pixel_x = 5
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cAv" = (
@@ -51281,6 +51296,7 @@
 /area/maintenance/asmaint)
 "cAw" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/briefcase,
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cAx" = (
@@ -51794,7 +51810,6 @@
 /area/engine/controlroom)
 "cBM" = (
 /obj/structure/table/reinforced,
-/obj/item/toy/foamblade,
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cBN" = (
@@ -51803,12 +51818,12 @@
 /area/maintenance/asmaint)
 "cBO" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/belt/fannypack/blue{
-	pixel_y = 5
+/obj/random/carp_plushie,
+/obj/random/carp_plushie{
+	pixel_y = 6
 	},
-/obj/item/storage/belt/fannypack/orange,
-/obj/item/storage/belt/fannypack/red{
-	pixel_y = -5
+/obj/random/carp_plushie{
+	pixel_y = 11
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -51828,7 +51843,9 @@
 /area/medical/research)
 "cBT" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/backpack/clown,
+/obj/random/mech{
+	pixel_y = 11
+	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "cBU" = (
@@ -53260,6 +53277,7 @@
 "cFq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
+/obj/item/storage/bag/plasticbag,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cFr" = (
@@ -56299,16 +56317,14 @@
 /area/maintenance/asmaint)
 "cMe" = (
 /obj/structure/closet/cabinet,
-/obj/item/reagent_containers/food/snacks/grown/cannabis{
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/snacks/grown/cannabis{
-	pixel_y = 1;
+/obj/random/weed{
 	pixel_x = -7
 	},
-/obj/item/reagent_containers/food/snacks/grown/cannabis{
-	pixel_y = 1;
-	pixel_x = 6
+/obj/random/weed{
+	pixel_x = 8
+	},
+/obj/random/weed{
+	pixel_y = 8
 	},
 /obj/item/clothing/head/sunflower_crown,
 /turf/simulated/floor/plating,
@@ -56473,6 +56489,7 @@
 "cMA" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
+/obj/random/therapy,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMB" = (
@@ -77865,11 +77882,6 @@
 "mVH" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/carpplushie,
-/obj/item/toy/carpplushie/nebula{
-	pixel_x = 7;
-	pixel_y = 4
-	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "mZf" = (
@@ -82184,6 +82196,18 @@
 /area/toxins/mixing)
 "rFU" = (
 /obj/structure/closet/crate,
+/obj/item/storage/bag/plasticbag,
+/obj/item/storage/bag/plasticbag{
+	pixel_x = -9
+	},
+/obj/item/storage/bag/plasticbag{
+	pixel_y = 7;
+	pixel_x = -5
+	},
+/obj/item/storage/bag/plasticbag{
+	pixel_x = 1;
+	pixel_y = 5
+	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "rGg" = (
@@ -86748,48 +86772,21 @@
 "wDs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/maintenance/double,
-/turf/simulated/floor/plasteel,
-/area/maintenance/asmaint)
-"wDz" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/wood,
-/area/maintenance/fsmaint2)
-"wEh" = (
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "Biohazard";
-	name = "Biohazard Shutter";
-	opacity = 0
+/obj/effect/spawner/lootdrop/maintenance/double{
+	loot = list(/obj/item/bodybag = 10, /obj/item/clothing/glasses/meson = 20, /obj/item/clotshing/glasses/sunglasses = 10, /obj/item/clothing/gloves/color/yellow/fake = 15, /obj/item/clothing/gloves/color/fyellow = 10, /obj/item/clothing/gloves/color/yellow = 5, /obj/item/clothing/gloves/color/black = 20, /obj/item/clothing/head/hardhat = 10, /obj/item/clothing/head/hardhat/red = 10, /obj/item/clothing/head/that = 10, /obj/item/clothing/head/ushanka = 10, /obj/item/clothing/head/welding = 10, /obj/item/clothing/mask/gas = 10, /obj/item/clothing/suit/storage/hazardvest = 10, /obj/item/clothing/under/rank/vice = 10, /obj/item/assembly/prox_sensor = 40, /obj/item/assembly/timer = 30, /obj/item/flashlight = 40, /obj/item/flashlight/pen = 10, /obj/item/multitool = 20, /obj/item/radio/off = 20, /obj/item/t_scanner = 60, /obj/item/stack/cable_coil = 40, /obj/item/stack/cable_coil {amount = 5	
 	},
-/obj/machinery/light,
+/turf/space,
+/area/maintenance/asmaint)
+"wEh" = (
 /turf/simulated/floor/plasteel{
-	icon_state = "whitegreencorner"
+			icon_state   =   "whitegreencorner"		
 	},
 /area/medical/research)
-"wEX" = (
-/obj/machinery/door/window/southright{
-	name = "Containment Pen";
-	req_access = list(55)
-	},
-/obj/machinery/door/poddoor{
-	density = 0;
-	icon_state = "open";
-	id_tag = "xenobio4";
-	name = "Containment Blast Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/engine,
-/area/toxins/xenobiology)
 "wFB" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/maintenance{
-	req_access = list(44)
+		req_access  =  list(44)
 	},
 /turf/simulated/floor/plating,
 /area/mimeoffice)
@@ -87694,7 +87691,9 @@
 /area/security/customs)
 "xBy" = (
 /obj/structure/table/reinforced,
-/obj/item/toy/eight_ball,
+/obj/random/plushie{
+	pixel_y = 13
+	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "xCg" = (
@@ -88183,7 +88182,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/wallet/random,
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "yig" = (
@@ -133431,7 +133429,7 @@ cPp
 cPp
 cEH
 cZB
-wEX
+cJK
 cJK
 cKZ
 cJK
@@ -135654,7 +135652,7 @@ vnb
 fnW
 dYR
 fnW
-wDz
+fnW
 fnW
 tOF
 qKL
@@ -135911,7 +135909,7 @@ vnb
 owu
 ivR
 fnW
-wDz
+fnW
 hYx
 aGX
 kKR

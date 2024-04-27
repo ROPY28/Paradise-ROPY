@@ -108,3 +108,16 @@
 				prob(2);/obj/item/storage/belt/utility,\
 				prob(5);/obj/random/tool,\
 				prob(3);/obj/item/stack/tape_roll)
+
+/obj/random/weed
+	name = "Random Weed"
+	desc = "This is a random weed."
+	icon = 'icons/goonstation/objects/hydroponics.dmi'
+	icon_state = "megacannabis"
+
+/obj/random/weed/item_to_spawn()
+	return pick(prob(10);/obj/item/reagent_containers/food/snacks/grown/cannabis/rainbow,\
+				prob(2);/obj/item/reagent_containers/food/snacks/grown/cannabis/death,\
+				prob(7);/obj/item/reagent_containers/food/snacks/grown/cannabis/white,\
+				prob(1);/obj/item/reagent_containers/food/snacks/grown/cannabis/ultimate,\
+				prob(80);/obj/item/reagent_containers/food/snacks/grown/cannabis)
