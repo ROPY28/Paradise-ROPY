@@ -194,7 +194,7 @@
 	/// Do we require any of the needed chems, or all of them?
 	var/require_all_chems = TRUE
 	/// Whether silicons ignore any probabilities (and are therefore "perfect" surgeons)
-	var/silicons_ignore_prob = FALSE
+	var/silicons_ignore_prob = TRUE
 	/// How many times this step has been automatically repeated.
 	var/times_repeated = 0
 
@@ -446,7 +446,7 @@
 		var/obj/item/organ/external/affected = target.get_organ(target_zone)
 		if(can_infect && affected)
 			spread_germs_to_organ(affected, user, tool)
-	if(ishuman(user) && !istype(target, /mob/living/carbon/alien) && prob(60))
+	if(ishuman(user) && !isalien(target) && prob(60))
 		var/mob/living/carbon/human/H = user
 		switch(blood_level)
 			if(SURGERY_BLOODSPREAD_HANDS)
