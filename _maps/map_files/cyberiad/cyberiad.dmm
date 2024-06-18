@@ -51281,12 +51281,12 @@
 	pixel_x = -1
 	},
 /obj/random/tool{
-	pixel_y = -6;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = -6
 	},
 /obj/random/tool{
-	pixel_y = 6;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -52978,13 +52978,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
-"cEz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel,
-/area/maintenance/asmaint)
 "cEA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -52994,9 +52987,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 8;
-	icon_state = "pipe-j2"
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -54642,8 +54635,8 @@
 	pixel_y = 8
 	},
 /obj/item/reagent_containers/food/snacks/doner_mushroom{
-	pixel_y = -2;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = -2
 	},
 /obj/effect/decal/ants,
 /turf/simulated/floor/wood,
@@ -56329,14 +56322,6 @@
 /obj/item/clothing/head/sunflower_crown,
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
-"cMf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
 "cMg" = (
 /mob/living/simple_animal/slime,
 /obj/effect/landmark/event/revenantspawn,
@@ -56355,6 +56340,9 @@
 	dir = 4
 	},
 /obj/effect/spawner/random_barrier/possibly_welded_airlock,
+/obj/random/carp_plushie{
+	pixel_y = 11
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
 "cMj" = (
@@ -70761,8 +70749,8 @@
 /obj/structure/table,
 /obj/item/stack/packageWrap,
 /obj/item/destTagger{
-	pixel_y = -4;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -4
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/asmaint)
@@ -72044,14 +72032,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/security/permabrig)
-"gyH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
-/turf/simulated/floor/plasteel,
-/area/maintenance/asmaint)
 "gzq" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
@@ -74646,11 +74626,11 @@
 /area/space)
 "juC" = (
 /obj/machinery/requests_console{
+	announcementConsole = 1;
 	department = "Quartermaster's Desk";
 	departmentType = 5;
 	name = "Quartermaster Requests Console";
-	pixel_x = -30;
-	announcementConsole = 1
+	pixel_x = -30
 	},
 /turf/simulated/floor/plasteel{
 	dir = 8;
@@ -78719,8 +78699,8 @@
 	pixel_y = -4
 	},
 /obj/item/toy/figure/qm{
-	pixel_y = 3;
-	pixel_x = 8
+	pixel_x = 8;
+	pixel_y = 3
 	},
 /obj/item/lighter/zippo/qm{
 	pixel_x = -8;
@@ -82201,8 +82181,8 @@
 	pixel_x = -9
 	},
 /obj/item/storage/bag/plasticbag{
-	pixel_y = 7;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = 7
 	},
 /obj/item/storage/bag/plasticbag{
 	pixel_x = 1;
@@ -84946,13 +84926,6 @@
 	icon_state = "bar"
 	},
 /area/security/permabrig)
-"uRK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
 "uRL" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plasteel,
@@ -86773,20 +86746,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/maintenance/double{
-	loot = list(/obj/item/bodybag = 10, /obj/item/clothing/glasses/meson = 20, /obj/item/clotshing/glasses/sunglasses = 10, /obj/item/clothing/gloves/color/yellow/fake = 15, /obj/item/clothing/gloves/color/fyellow = 10, /obj/item/clothing/gloves/color/yellow = 5, /obj/item/clothing/gloves/color/black = 20, /obj/item/clothing/head/hardhat = 10, /obj/item/clothing/head/hardhat/red = 10, /obj/item/clothing/head/that = 10, /obj/item/clothing/head/ushanka = 10, /obj/item/clothing/head/welding = 10, /obj/item/clothing/mask/gas = 10, /obj/item/clothing/suit/storage/hazardvest = 10, /obj/item/clothing/under/rank/vice = 10, /obj/item/assembly/prox_sensor = 40, /obj/item/assembly/timer = 30, /obj/item/flashlight = 40, /obj/item/flashlight/pen = 10, /obj/item/multitool = 20, /obj/item/radio/off = 20, /obj/item/t_scanner = 60, /obj/item/stack/cable_coil = 40, /obj/item/stack/cable_coil {amount = 5	
+	loot = list(/obj/item/bodybag = 10, /obj/item/clothing/glasses/meson = 20, /obj/item/clotshing/glasses/sunglasses = 10, /obj/item/clothing/gloves/color/yellow/fake = 15, /obj/item/clothing/gloves/color/fyellow = 10, /obj/item/clothing/gloves/color/yellow = 5, /obj/item/clothing/gloves/color/black = 20, /obj/item/clothing/head/hardhat = 10, /obj/item/clothing/head/hardhat/red = 10, /obj/item/clothing/head/that = 10, /obj/item/clothing/head/ushanka = 10, /obj/item/clothing/head/welding = 10, /obj/item/clothing/mask/gas = 10, /obj/item/clothing/suit/storage/hazardvest = 10, /obj/item/clothing/under/rank/vice = 10, /obj/item/assembly/prox_sensor = 40, /obj/item/assembly/timer = 30, /obj/item/flashlight = 40, /obj/item/flashlight/pen = 10, /obj/item/multitool = 20, /obj/item/radio/off = 20, /obj/item/t_scanner = 60, /obj/item/stack/cable_coil = 40, /obj/item/stack/cable_coil {amount = 5		
 	},
 /turf/space,
 /area/maintenance/asmaint)
 "wEh" = (
-/turf/simulated/floor/plasteel{
-			icon_state   =   "whitegreencorner"		
-	},
 /area/medical/research)
 "wFB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/maintenance{
-		req_access  =  list(44)
+			req_access = =   list(44)
 	},
 /turf/simulated/floor/plating,
 /area/mimeoffice)
@@ -87033,13 +87002,6 @@
 	icon_state = "escape"
 	},
 /area/maintenance/fsmaint2)
-"wUz" = (
-/obj/machinery/disposal,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/asmaint)
 "wUR" = (
 /obj/effect/spawner/random_spawners/wall_rusted_maybe,
 /turf/simulated/wall,
@@ -88058,9 +88020,6 @@
 /area/toxins/xenobiology)
 "yba" = (
 /obj/machinery/door/airlock/public,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/asmaint)
 "ybg" = (
@@ -127259,7 +127218,7 @@ cAv
 mVH
 cEA
 cEA
-dfM
+csL
 chf
 chf
 cUG
@@ -127516,7 +127475,7 @@ cAv
 xBy
 czq
 czq
-cEz
+czq
 cAu
 chf
 chf
@@ -127773,7 +127732,7 @@ cAv
 yhT
 cEA
 cEA
-cMf
+csL
 gOy
 chf
 cIk
@@ -128030,7 +127989,7 @@ csL
 cMA
 cAv
 cyJ
-uRK
+csL
 lNN
 chf
 cKA
@@ -128287,7 +128246,7 @@ czr
 cAv
 cAv
 cFq
-uRK
+csL
 lqW
 chf
 cKv
@@ -128801,7 +128760,7 @@ chf
 cEp
 cEC
 cAv
-cEz
+czq
 fcr
 chf
 cIo
@@ -129058,8 +129017,8 @@ chf
 czh
 csL
 cAv
-gyH
-wUz
+czq
+csL
 chf
 cIn
 nHW
