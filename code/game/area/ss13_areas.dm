@@ -979,6 +979,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Abandoned Server Room"
 	icon_state = "yellow"
 
+/area/maintenance/zavod
+	name = "Abandoned Zavod line"
+	icon_state = "yellow"
+
 //Hallway
 
 /area/hallway
