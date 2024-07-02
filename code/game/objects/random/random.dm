@@ -121,3 +121,20 @@
 				prob(7);/obj/item/reagent_containers/food/snacks/grown/cannabis/white,\
 				prob(1);/obj/item/reagent_containers/food/snacks/grown/cannabis/ultimate,\
 				prob(80);/obj/item/reagent_containers/food/snacks/grown/cannabis)
+
+/obj/random/makeshift_ammunition
+	name = "Random Makeshift ammunition"
+	desc = "This is a random item."
+	icon = 'icons/obj/weapons/bombarda.dmi'
+	icon_state = "exp_shell-live"
+
+/obj/random/makeshift_ammunition/item_to_spawn()
+	return pick(prob(5);/obj/item/restraints/legcuffs/bola,\
+				prob(5);/obj/item/ammo_casing/grenade/improvised/exp_shell,\
+				prob(10);/obj/item/grenade/iedcasing,\
+				prob(5); /obj/item/ammo_casing/shotgun/ion,\
+				prob(5); /obj/item/ammo_casing/shotgun/improvised,\
+				prob(5); /obj/item/ammo_casing/shotgun/improvised/overload,\
+				prob(15); /obj/item/ammo_casing/revolver/improvised,\
+				prob(10); /obj/item/ammo_casing/revolver/improvised/phosphorus,\
+				prob(40);/obj/item/arrow/rod)
